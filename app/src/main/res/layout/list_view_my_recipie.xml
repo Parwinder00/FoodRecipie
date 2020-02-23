@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F89F1A"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:scaleType="fitXY"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:textColor="#000"
+        android:layout_margin="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_ingdrints"
+        android:textColor="#000"
+        android:layout_margin="6dp"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_process"
+        android:textColor="#000"
+        android:layout_margin="6dp"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_EditRecipe"
+        android:text="Edit Recipe"
+        android:layout_margin="15dp"
+        android:layout_gravity="right"
+        android:background="@drawable/button_rounded1"
+        android:layout_width="150dp"
+        android:layout_height="40dp" />
+
+</LinearLayout>
+</ScrollView>

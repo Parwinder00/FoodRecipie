@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Food Recipies</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="read_file">This app needs access to your file storage so that it can read photos.</string>
+
+    <string-array name="country_names">
+        <item>Select Country Name</item>
+        <item>chinese</item>
+        <item>Japanese</item>
+        <item>India</item>
+    </string-array>
+</resources>

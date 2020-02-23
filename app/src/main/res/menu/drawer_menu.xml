@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/nav_edit"
+        android:title="Edit Profile"
+        />
+    <item
+        android:id="@+id/nav_add"
+        android:title="Add Recipie"
+        />
+    <item
+        android:id="@+id/nav_my"
+        android:title="My Recipies"
+        />
+    <item
+        android:id="@+id/nav_all"
+        android:title="View All Recipie"
+        />
+    <item
+        android:id="@+id/nav_search"
+        android:title="Search Recipie"
+        />
+
+    <item
+        android:id="@+id/nav_his"
+        android:title="OffLine Data"
+        />
+
+</group>
+
+</menu>

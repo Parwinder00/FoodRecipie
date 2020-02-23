@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#f9ffffff"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="60dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f2"
+                />
+
+
+
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:text="Username"
+                android:textSize="20dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="30dp"
+
+                android:textColor="#96B0BF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:id="@+id/et_USERNAME"
+                android:singleLine="true"
+
+                android:textColor="#000"
+                android:background="#FFFFFF"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="2dp"
+                android:background="#8E989E"/>
+
+
+
+            <TextView
+                android:id="@+id/tv_password"
+                android:text="Password"
+                android:layout_gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="23dp"
+                android:textColor="#96B0BF"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:id="@+id/et_PWD"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:background="#FFFFFF"
+                android:inputType="textPassword"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="2dp"
+                android:background="#8E989E"/>
+
+            <TextView
+                android:id="@+id/tv_forgetpwd"
+                android:text="Forget Password ?"
+                android:layout_gravity="right"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#96B0BF"
+
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+            <Button
+                android:id="@+id/btn_add"
+                android:text="Login"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#131212"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/button1_rounded" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_newuser"
+                    android:text="New User ?"
+                    android:textColor="#96B0BF"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:id="@+id/tv_signup"
+                    android:text="Sign Up"
+                    android:layout_marginLeft="6dp"
+                    android:textColor="#7BCA7E"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+

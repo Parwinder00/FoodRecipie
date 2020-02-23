@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F89F1A"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:text="Food Iteam Name"
+        android:layout_marginTop="14dp"
+        android:textColor="#1B1A1A"
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:background="@drawable/edittext_rounded_reg"
+        android:hint="Food Iteam Name"
+        android:layout_marginTop="5dp"
+        android:padding="8dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textColorHint="#C5BFC2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:id="@+id/tv_ingridnts"
+        android:text="Ingredient"
+        android:textColor="#1B1A1A"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_ingredient"
+        android:background="@drawable/edittext_rounded_reg"
+        android:hint="Ingredient"
+        android:layout_marginTop="5dp"
+        android:padding="8dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textColorHint="#C5BFC2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/tv_procss"
+        android:text="Procedure"
+        android:textColor="#1B1A1A"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_process"
+        android:background="@drawable/edittext_rounded_reg"
+        android:hint="Procedure"
+        android:layout_marginTop="5dp"
+        android:padding="8dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textColorHint="#C5BFC2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btn_reg"
+        android:text="Submit"
+        android:padding="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/reg_button_rounded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+</ScrollView>
